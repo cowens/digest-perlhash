@@ -1,0 +1,28 @@
+Digest-PerlHash
+
+This module exposes the internal hashing function used by perl.
+You may prefer to use a different hash function from the Digest::*
+heirarchy because there is no guarentee that this function will
+return the same values between releases of perl.
+
+INSTALLATION
+
+To install this module, run the following commands:
+
+	perl Makefile.PL
+	make
+	make test
+	make install
+
+SUPPORT AND DOCUMENTATION
+
+After installing, you can find documentation for this module with the
+perldoc command.
+
+    perldoc Digest::PerlHash
+
+Copyright (C) 2009 Chas. J. Owens IV
+
+This program is free software; you can redistribute it and/or modify it
+under the same terms as Perl itself.
+

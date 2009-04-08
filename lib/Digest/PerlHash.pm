@@ -30,7 +30,7 @@ Version 0.01
 
 This module exposes the internal hashing function used by perl.
 You may prefer to use a different hash function from the Digest::*
-heirarchy because there is no guarentee that this function will
+hierarchy because there is no guarantee that this function will
 return the same values between releases of perl.
 
 =head1 EXPORT
